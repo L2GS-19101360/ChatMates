@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "680040796950",
+    "project_id": "chatmates-83543",
+    "storage_bucket": "chatmates-83543.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680040796950:android:a779c0aad62195f36db637",
+        "android_client_info": {
+          "package_name": "com.example.chatmates"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkpZeCrTOLBdQQ9Qxkcg_qYuPPdjwwFco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
