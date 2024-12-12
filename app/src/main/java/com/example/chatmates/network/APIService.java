@@ -1,6 +1,7 @@
 package com.example.chatmates.network;
 
 import java.util.HashMap;
+import java.util.HashSet;
 
 import retrofit2.Call;
 import retrofit2.http.Body;
