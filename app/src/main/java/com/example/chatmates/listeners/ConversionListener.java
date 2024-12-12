@@ -2,8 +2,8 @@ package com.example.chatmates.listeners;
 
 import com.example.chatmates.models.User;
 
-public interface UserListener {
+public interface ConversionListener {
 
-    void onUserClicked(User user);
+    void onConversionClicked(User user);
 
 }
