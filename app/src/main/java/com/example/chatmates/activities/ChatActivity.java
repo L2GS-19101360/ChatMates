@@ -14,6 +14,7 @@ import android.widget.Toast;
 import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
@@ -260,7 +261,10 @@ public class ChatActivity extends BaseActivity {
             if (isReceiverAvailable) {
                 binding.textAvailability.setVisibility(View.VISIBLE);
             } else {
-                binding.textAvailability.setVisibility(View.GONE);
+                binding.textAvailability.setVisibility(View.VISIBLE);
+                binding.textAvailability.setText("Offline");
+                binding.textAvailability.setTextColor(ContextCompat.getColor(this, android.R.color.white));
+                binding.textAvailability.setBackgroundColor(ContextCompat.getColor(this, android.R.color.holo_red_dark));
             }
         });
     }
