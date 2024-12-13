@@ -258,16 +258,24 @@ public class ChatActivity extends BaseActivity {
                 }
                 receiverUser.token = value.getString(Constants.KEY_FCM_TOKEN);
             }
-            if (isReceiverAvailable) {
-                binding.textAvailability.setVisibility(View.VISIBLE);
-            } else {
-                binding.textAvailability.setVisibility(View.VISIBLE);
-                binding.textAvailability.setText("Offline");
-                binding.textAvailability.setTextColor(ContextCompat.getColor(this, android.R.color.white));
-                binding.textAvailability.setBackgroundColor(ContextCompat.getColor(this, android.R.color.holo_red_dark));
-            }
+            updateAvailabilityUI(isReceiverAvailable);
         });
     }
+
+    private void updateAvailabilityUI(boolean isReceiverAvailable) {
+        if (isReceiverAvailable) {
+            binding.textAvailability.setVisibility(View.VISIBLE);
+            binding.textAvailability.setText("Online");
+            binding.textAvailability.setTextColor(ContextCompat.getColor(this, android.R.color.white)); // Example: Green color for online
+            binding.textAvailability.setBackgroundColor(ContextCompat.getColor(this, android.R.color.holo_green_dark));
+        } else {
+            binding.textAvailability.setVisibility(View.VISIBLE);
+            binding.textAvailability.setText("Offline");
+            binding.textAvailability.setTextColor(ContextCompat.getColor(this, android.R.color.white));
+            binding.textAvailability.setBackgroundColor(ContextCompat.getColor(this, android.R.color.holo_red_dark)); // Red color for offline
+        }
+    }
+
 
     private void listenMessages() {
         database.collection(Constants.KEY_COLLECTION_CHAT)
