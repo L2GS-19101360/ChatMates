@@ -1,3 +1,3 @@
 # ChatMates
 
-Ralph, insert here the READ.md content from the ChatGPT link I sent
+Ralph follow this video on how to update the README.md file with the content I sent in the ChatGPT link
