@@ -242,6 +242,9 @@ public class ChatActivity extends BaseActivity {
         binding.inputMessage.setText(null);
     }
 
+    /* *****************************************
+    *  START OF CODE CHALLENGE IMPLEMENTATION  *
+    ******************************************  */
     private void listenAvailabilityOfReceiver() {
         database.collection(Constants.KEY_COLLECTION_USERS).document(
                 receiverUser.id
@@ -275,7 +278,9 @@ public class ChatActivity extends BaseActivity {
             binding.textAvailability.setBackgroundColor(ContextCompat.getColor(this, android.R.color.holo_red_dark)); // Red color for offline
         }
     }
-
+    /* *****************************************
+     *  END OF CODE CHALLENGE IMPLEMENTATION  *
+     ****************************************** */
 
     private void listenMessages() {
         database.collection(Constants.KEY_COLLECTION_CHAT)
