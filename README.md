@@ -41,21 +41,21 @@
 Clone the repository:
 git clone https://github.com/L2GS-19101360/ChatMates.git
 
-- **Author**:
+**Author**:
 - Lorenz Gil Suico
 - Zyguel Philip Cabogoy
 - Jaden Ceniza
 - Rey Laurence Capoy
 - Ralph Matthew Gobui
   
-- **Email**:
+**Email**:
 - 19101360@usc.edu.ph
 - 11300246@usc.edu.ph
 - 22102267@usc.edu.ph
 - 22102428@usc.edu.ph
 - 19101324@usc.edu.ph
   
-- **GitHub**:
+**GitHub**:
 - L2GS-19101360
 - zyguel
 - Jaden-77
