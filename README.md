@@ -38,8 +38,7 @@
 - **Database**: Firebare Firestore, Firebase Messaging
 
 ## Installation
-
-1. Clone the repository:
+Clone the repository:
 git clone https://github.com/L2GS-19101360/ChatMates.git
 
 - **Author**:
