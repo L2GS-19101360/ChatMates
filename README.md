@@ -33,10 +33,9 @@
 - **Refresh MainActivity**: Refresh the main screen to display updated recent conversations.
 
 ## Technology Stack
-- **Frontend**: [Technology/Framework details (e.g., Flutter, React Native, etc.)]
-- **Backend**: [Backend framework/service details (e.g., Firebase, Node.js, etc.)]
-- **Database**: [Database service used (e.g., Firebase Firestore, SQLite, etc.)]
-- **Security**: End-to-end encryption for all messages to ensure privacy and safety.
+- **Frontend**: Android XML
+- **Backend**: Firebase Messaging, Java
+- **Database**: Firebase Firestore Database
 
 ## Installation
 
