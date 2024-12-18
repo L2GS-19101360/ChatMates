@@ -42,58 +42,16 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/ChatMates.git
+   git clone https://github.com/L2GS-19101360/ChatMates.git
    ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd ChatMates
-   ```
-
-3. Install dependencies:
-   ```bash
-   [Add installation command here based on the technology stack, e.g., npm install, flutter pub get, etc.]
-   ```
-
-4. Run the application:
-   ```bash
-   [Add the command to run the app, e.g., flutter run, npm start, etc.]
-   ```
-
-## Screenshots
-
-_Add screenshots of the app interface to showcase its design and features._
-
-## Contributing
-
-We welcome contributions to improve ChatMates. To contribute:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add new feature"
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature-name
-   ```
-5. Open a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
 For questions or support, feel free to contact:
 
-- **Author**: [Your Name]
-- **Email**: [Your Email]
-- **GitHub**: [Your GitHub Profile]
+- **Author**: Suico, Lorenz Gil G., Cabogoy, Zyguel Philip E., Ceniza, Jaden P., Capoy, Rey Laurence O., Gobui, Ralph Matthew M.
+- **Email**: 19101360@usc.edu.ph, 11300246@usc.edu.ph, 22102267@usc.edu.ph, 22102428@usc.edu.ph, 19101324@usc.edu.ph
+- **GitHub**: L2GS-19101360, zyguel, Jaden-77, LaurenceTest, ralphmg
 
 ---
 
